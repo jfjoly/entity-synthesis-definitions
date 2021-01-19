@@ -103,6 +103,8 @@ so that they can be highlighted in the different NewRelic visualizations as impo
 The `goldenTags` may be a subset of those defined in the `tags` field, but they can also be added to the entity after synthesis, 
 so we trust the criteria of the contributor of the definition to select the tags they need as the domain expert. 
 
+Tags are case sensitive.
+
 #### Composite metrics
 
 Composite metrics are those deemed important by you and used by NewRelic to provide an out-of-the-box experience with your entities. There are two types of composite metrics that can be defined:
